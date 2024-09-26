@@ -20,7 +20,7 @@ on:
           required: false 
 
 env:
-  TZ: Asia/Kolkata
+  TZ: Asia/Dhaka
   DEVICE: ${{ github.event.inputs.device }}
   REPO: ${{ github.event.inputs.repo }}
   BRANCH: ${{ github.event.inputs.branch }}
